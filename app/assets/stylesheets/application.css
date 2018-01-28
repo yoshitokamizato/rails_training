@@ -13,3 +13,170 @@
  *= require_tree .
  *= require_self
  */
+
+
+h1 {
+  color: red;
+}
+/* ヘッダー部分の */
+li {
+  font-size: 24px;
+  float: left;
+  padding: 40px 40px;
+  list-style: none;
+  /*リストの点をなくす*/
+  color: #FAFFB8;
+}
+
+
+.test {
+  font-size: 200px;
+  color: red;
+}
+
+body {
+  margin: 0;
+  /*"Hiragino Kaku Gothic ProN"*/
+  font-family: "Avenir Next";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  font-size: 25px;
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text-container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.top-wrapper {
+  padding: 180px 0 180px 0;
+  background-image: url(images/pc.png);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+}
+
+.sub-wrapper {
+  padding: 180px 0 180px 0;
+  background-image: url(images/service.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.sub-wrapper h1 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.sub-wrapper h2 {
+  opacity: 0.9;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.sub-wrapper p {
+  opacity: 0.9;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  /* transitionを指定してください */
+  transition:all 0.5s;
+  width: 200px;
+  height: 100px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* header-rightの中の<a>のCSSを指定してください */
+.header-right a {
+  line-height:65px;
+  text-align: center;
+  color:white;
+  display:block;
+}
+.footer-list {
+  font-size: 30px;
+  color: red ;
+  background-color: #ceccf3;
+  height: 270px;
+}
+
